@@ -1,0 +1,441 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs .separator {
+  margin: 0 8px;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.breadcrumbs__link:last-of-type {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.breadcrumbs__link {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+
+.map__address-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.discounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.discounts__title {
+  text-align: center;
+  color: #6da9a6;
+  font-family: "Monterchi Text";
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-bottom: 30px;
+}
+.discounts__list {
+  display: grid;
+  gap: 30px 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.discounts__item {
+  width: 640px;
+  height: 277px;
+  padding: 12px 10px 10px 8px;
+  background-position: center;
+  background-size: cover;
+}
+.discounts__item--1 {
+  background-position: right;
+}
+.discounts__item--2 {
+  background-color: #9c4f55;
+
+}
+
+.discounts__content {
+  height: 100%;
+  padding: 30px 16px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.discounts__content--4 {
+  padding-left: 0px;
+}
+.discounts__content--background {
+  padding: 8px 16px 16px 16px;
+  background-color: #6da9a6;
+  width: -moz-max-content;
+  width: max-content;
+}
+.discounts__badge {
+  margin-bottom: 82px;
+  color: #fff;
+  font-family: "ZT Neue Ralewe";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 110%;
+}
+.discounts__offer-title {
+  color: #fff;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+.discounts__offer-title--1 {
+  color: #5a4738;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+.discounts__offer-description {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.discounts__offer-description--1 {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+@media screen and (max-width: 1439.99px) {
+  .discounts {
+    display: flex;
+  }
+  .discounts__content {
+    height: 100%;
+    padding: 16px 16px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .discounts__badge {
+    margin-bottom: 48px;
+    color: #fff;
+    font-family: "ZT Neue Ralewe";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 110%;
+  }
+  .discounts__item {
+    width: 400px;
+    height: 265px;
+    padding: 12px 10px 10px 8px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 1199.99px) {
+  .discounts__title {
+    font-size: 56px;
+  }
+  .discounts__list {
+    display: grid;
+    gap: 30px 20px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .discounts__content {
+    height: 100%;
+    padding: 16px 16px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .discounts__badge {
+    margin-bottom: 48px;
+    color: #fff;
+    font-family: "ZT Neue Ralewe";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 110%;
+  }
+  .discounts__item {
+    width: 400px;
+    height: 265px;
+    padding: 12px 10px 10px 8px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 767.99px) {
+  .discounts {
+    padding-bottom: 50px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .discounts__offer-description {
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .discounts__offer-title {
+    font-family: "Monterchi Text";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+  }
+  .discounts__badge {
+    font-size: 19px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .discounts__item {
+    width: unset;
+    height: unset;
+    padding: 5px 6px;
+  }
+  .discounts__item--1 {
+    background-position: right;
+    background-size: cover;
+  }
+  .discounts__item--2 {
+    background-color: #9c4f55;
+    background-size: cover;
+  }
+  .discounts__item--3 {
+    background-size: cover;
+  }
+  .discounts__item--4 {
+    background-size: cover;
+  }
+  .discounts__list {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .discounts__title {
+    color: #6da9a6;
+    font-family: "Monterchi Text";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+    margin-bottom: 20px;
+  }
+  .discounts__content {
+    padding: 67px 13px 13px 13px;
+    position: relative;
+  }
+  .discounts__content--4 {
+    padding-left: 0px;
+  }
+  .discounts__content--background {
+    padding: 7px 16px;
+  }
+}
+@media screen and (max-width: 539.99px) {
+  .discounts {
+    padding-bottom: 50px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .discounts__offer-description {
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .discounts__offer-title {
+    font-family: "Monterchi Text";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+  }
+  .discounts__badge {
+    font-size: 19px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .discounts__item {
+    width: unset;
+    height: unset;
+    padding: 5px 6px;
+  }
+  .discounts__item--1 {
+    background-position: right;
+    background-size: cover;
+  }
+  .discounts__item--2 {
+    background-color: #9c4f55;
+    background-size: cover;
+  }
+  .discounts__item--3 {
+    background-size: cover;
+  }
+  .discounts__item--4 {
+    background-size: cover;
+  }
+  .discounts__list {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .discounts__title {
+    color: #6da9a6;
+    font-family: "Monterchi Text";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+    margin-bottom: 20px;
+  }
+  .discounts__content {
+    padding: 67px 13px 13px 13px;
+    position: relative;
+  }
+  .discounts__content--4 {
+    padding-left: 0px;
+  }
+  .discounts__content--background {
+    padding: 7px 16px;
+  }
+}
+@media screen and (max-width: 375.99px) {
+  .contacts {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .contacts__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts__list {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .contacts__note {
+    width: unset !important;
+  }
+  .contacts__title {
+    color: #6da9a6;
+    font-family: "Monterchi Text";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+  }
+  .contacts__number {
+    color: #4c4c4c;
+    font-family: "Monterchi Text";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+  }
+  .contacts__address {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__email {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__phone {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__note {
+    color: #4c4c4c;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    width: unset;
+    margin-bottom: 0px;
+  }
+  .feedback {
+    padding-bottom: 50px !important;
+    flex-basis: unset;
+  }
+  .feedback__title {
+    color: #6da9a6;
+    font-family: "Monterchi Text";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+  }
+  .feedback__input {
+    font-size: 14px;
+  }
+  .feedback__submit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    gap: 17px;
+  }
+  .feedback__button {
+    font-size: 14px;
+    padding: 14px 25px;
+  }
+  .feedback__note {
+    color: #616161;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+  }
+  .feedback__link {
+    color: #616161;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+}/*# sourceMappingURL=stock.css.map */

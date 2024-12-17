@@ -1,0 +1,289 @@
+.doctor-card {
+  margin-bottom: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.doctor-card__left-block {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 666px;
+  gap: 10px;
+  flex-grow: 1;
+  padding: 33px 0px;
+}
+.doctor-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.doctor-card__right-block {
+  max-width: 581px;
+}
+.doctor-card__image {
+  width: 100%;
+  height: 100%;
+}
+.doctor-card__title {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.doctor-card__name {
+  color: #6da9a6;
+  font-family: "Monterchi Trial";
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.doctor-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.doctor-card__text {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.doctor-card__text--1 {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.doctor-card__stats {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 20px;
+}
+.doctor-card__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.doctor-card__stat-number {
+  color: #6da9a6;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.doctor-card__stat-label {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.doctor-card__button {
+  padding: 20px 28px;
+  background: #6da9a6;
+  border-radius: 44px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.doctor-card__button:hover {
+  transition: 0.3s;
+  background: #336767;
+}
+.doctor-card__button:active {
+  transition: 0.3s;
+  background: #336767;
+  box-shadow: 0px 4px 6px 0px rgba(0, 3, 55, 0.2) inset;
+}
+
+@media screen and (max-width: 375.99px) {
+  .doctor-card {
+    display: flex;
+    padding: 0 12px;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .doctor-card__left-block {
+    padding: 0;
+  }
+  .doctor-card__title {
+    color: #4c4c4c;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .doctor-card__name {
+    color: #6da9a6;
+    font-family: "Monterchi Trial";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+  }
+  .doctor-card__text {
+    color: #4c4c4c;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .doctor-card__text--1 {
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .doctor-card__stat {
+    gap: unset;
+  }
+  .doctor-card__stat-number {
+    color: #6da9a6;
+    font-family: "Montserra";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .doctor-card__stat-label {
+    color: #4c4c4c;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+  }
+  .doctor-card__button {
+    padding: 17px 23px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .contacts {
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    gap: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .contacts__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .contacts__title {
+    color: #6da9a6;
+    font-family: "Monterchi Trial";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+  }
+  .contacts__number {
+    color: #4c4c4c;
+    font-family: "Monterchi Trial";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+  }
+  .contacts__address {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__email {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__phone {
+    color: #4c4c4c;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  .contacts__note {
+    color: #4c4c4c;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    width: unset;
+    margin-bottom: 0px;
+  }
+  .feedback {
+    margin-bottom: 50px;
+    flex-basis: unset;
+  }
+  .feedback__title {
+    color: #6da9a6;
+    font-family: "Monterchi Trial";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 105%;
+  }
+  .feedback__input {
+    font-size: 14px;
+  }
+  .feedback__submit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 17px;
+  }
+  .feedback__button {
+    font-size: 14px;
+    padding: 14px 25px;
+  }
+  .feedback__note {
+    color: #616161;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+  }
+  .feedback__link {
+    color: #616161;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+}/*# sourceMappingURL=cosmetologistAB.css.map */

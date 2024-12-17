@@ -1,0 +1,211 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+  margin-top: 30px;
+}
+.reviews__rating-group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+.reviews__rating-item {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #e1e1e1;
+  padding: 19px 18px 15px 18px;
+  border-radius: 3px;
+  background: #fff;
+}
+.reviews__rating-info {
+  display: flex;
+  flex-direction: column;
+}
+.reviews__rating-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.reviews__rating-value {
+  color: #ffcc03;
+  font-family: "Akrobat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+.reviews__rating-label {
+  color: #19325d;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.reviews__title {
+  margin-bottom: 30px;
+  color: #6da9a6;
+  font-family: "Monterchi Text";
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+.reviews__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.reviews__bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 984px;
+  align-items: center;
+  gap: 18px;
+}
+.reviews__bottom-discription {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: center;
+}
+.reviews__bottom-title {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.reviews__bottom-link {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.reviews__bottom-button {
+  padding: 18px 28px;
+  background: #6da9a6;
+  border-radius: 44px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.reviews__bottom-button:hover {
+  background: #336767;
+  transition: 0.3s;
+}
+.reviews__bottom-button:active {
+  transition: 0.3s;
+  background: #336767;
+  box-shadow: 0px 4px 6px 0px rgba(0, 3, 55, 0.2) inset;
+}
+
+.slider {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+.slider__track {
+  display: flex;
+  gap: 30px;
+  width: 800px;
+}
+.slider__card {
+  background-color: #fff;
+  border-radius: 13px;
+  box-shadow: 0px 8px 20.9px 0px rgba(0, 12, 78, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 18px 16px 24px 23px;
+}
+.slider__avatar {
+  border-radius: 59px;
+  width: 59px;
+  height: 59px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slider__title {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.slider__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.slider__content-discription {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 100%;
+  max-width: 219px;
+}
+.slider__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.slider__item--name {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+.slider__item--date {
+  color: #808080;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.slider__btn {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
+  transform: translateY(-50%);
+  max-height: 40px;
+  color: #9f9f9f;
+  transition: 0.3s;
+}
+.slider__btn:hover {
+  color: #6da9a6;
+}
+.slider__btn:active {
+  color: #6da9a6;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1120px;
+  height: 100%;
+  max-height: 350px;
+  padding: 10px !important;
+}/*# sourceMappingURL=reviews.css.map */

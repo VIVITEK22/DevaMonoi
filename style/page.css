@@ -1,0 +1,182 @@
+.breadcrumbs {
+  margin-bottom: 30px !important;
+}
+
+.top {
+  background: url('../img/DSC00831.png') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 90px 0 120px 0;
+}
+
+.top__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 894px;
+  margin: 0 auto;
+}
+
+.top__title {
+  font-family: "Monterchi Text";
+  font-size: 63px;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 19px;
+}
+
+.top__text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top__button {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 44px;
+  background-color: #fff;
+  color: #4C4C4C;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  padding: 18px 28px;
+  transition: all 0.3s;
+}
+
+.top__button:hover {
+  background-color: #aeaeae;
+  border: 2px solid #aeaeae;
+}
+
+.cards {
+  margin-bottom: 100px !important;
+}
+
+.cards__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cards__item {
+  display: flex;
+  align-items: center;
+}
+
+.cards__image {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.cards__item-title {
+  font-family: Monterchi Text;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.cards__item-span {
+  display: block;
+  width: 86px;
+  height: 1px;
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 12px;
+}
+
+.cards__item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.cards__item--reverse {
+  flex-direction: row-reverse;
+}
+
+.cards__item-body {
+  padding: 0 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards__item--green1 {
+  background-color: #6DA9A6;
+  color: #fff;
+}
+
+.cards__item--white {
+  background-color: #FFF4ED;
+  color: #4C4C4C;
+}
+
+.cards__item--white .cards__item-title {
+  color: #6DA9A6;
+}
+
+.cards__item--white .cards__item-span {
+  background-color: #6DA9A6;
+}
+
+.cards__item--green2 {
+  background-color: #1B8580;
+  color: #fff;
+}
+
+.advantages {
+  margin-bottom: 100px !important;
+}
+
+.advantages__title {
+  font-family: Monterchi Text;
+  font-size: 63px;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6DA9A6;
+  margin-bottom: 50px;
+}
+
+.advantages__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages__item {
+  max-width: 250px;
+}
+
+.advantages__text {
+  margin-top: 16px;
+  text-align: center;
+  font-family: Monterchi Text;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #4C4C4C;
+}

@@ -1,0 +1,183 @@
+.correction__img img {
+  width: 1320px;
+  height: 397px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.correction {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  gap: 41px;
+}
+.correction__content {
+  flex-basis: 77%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 400px;
+}
+
+.correction__title {
+  position: relative;
+  z-index: 1;
+  color: #6da9a6;
+  font-family: "Monterchi Trial";
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 95%;
+}
+
+.correction__title::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -26px;
+  left: -32px;
+  background: #fcfffa;
+  width: 912px;
+  height: 160px;
+}
+
+.correction__date {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 160%;
+}
+.correction__description-link {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.correction__description {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.correction__navigate-link {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+
+.correction__navigate-title {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.correction__navigate-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.correction__navigate {
+  flex-basis: 23%;
+  padding: 16px 33px 35px 24px;
+  width: max-content;
+  height: max-content;
+  border: 1px solid #ededed;
+}
+
+.correction-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.correction-info__media {
+  display: flex;
+  margin-top: 38px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.correction-info__image{
+    width: 949px;
+    height: 386px;
+    object-fit: cover;
+}
+
+.correction-info__text{
+color:  #4C4C4C;
+font-family: 'Raleway';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+
+.correction-info__list {
+  list-style: armenian;
+  margin-top: 10px;
+  display: flex;
+  gap: 13px;
+  flex-direction: column;
+}
+
+.correction-info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.correction-info__title {
+  color: #6da9a6;
+  font-family: "Monterchi Trial";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 105%;
+}
+.correction-info__description {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.correction-info__list-item--title {
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.correction-info__list-item {
+    list-style-position: inside;
+ list-style-type: decimal;
+  color: #4c4c4c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}

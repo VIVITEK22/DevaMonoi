@@ -1,0 +1,97 @@
+.personal__intro {
+  background-color: #6da9a6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 25px;
+  padding: 46px 43px 53px 43px;
+}
+.personal__title {
+  color: #6DA9A6;
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+.personal__description {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  max-width: 589px;
+}
+.personal__people-cards {
+  display: grid;
+  gap: 35px 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.personal__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.personal__photo {
+  width: 310px;
+  max-height: 292px;
+  object-fit: cover;
+}
+.personal__details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.personal__content {
+  padding-bottom: 100px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.personal__name {
+  color: #4c4c4c;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+.personal__specialization {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.personal__link {
+  color: #6da9a6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.personal__show-more {
+  color: #6da9a6;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.swiper {
+  padding: 0 !important;
+}
+.personal__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal {
+  padding-top: 40px !important;
+} /*# sourceMappingURL=personal.css.map */
